@@ -37,7 +37,7 @@ function Navbar() {
 </div>
  
  <>
- <ul className={!mobnav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col items-center justify-center md:hidden'}>
+ <ul className={!mobnav ? 'hidden' :'absolute top-0 left-0 w-full h-[50vh]  bg-[#0a192f] flex flex-col items-center justify-center md:hidden'}>
         <li className='py-6 text-4l'> <Link onClick={handleclick}  to="main" spy={true} smooth={true} offset={50} duration={500}>
           Home
         </Link></li>
