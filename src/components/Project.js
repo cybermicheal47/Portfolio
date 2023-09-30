@@ -45,7 +45,7 @@ const mousehover = () => {
 }
 
   return (
-    <div className='w-full md:h-screen text-gray-50 bg-[#0a192f]'>  
+    <div className='w-full md:h-screen text-gray-50 bg-[#0a192f]' name='projects'>  
     <div className='flex flex-col justify-center  w-full h-full items-center '>
   
       <div>
@@ -53,7 +53,7 @@ const mousehover = () => {
         <p className='py-6 pl-5'> Some of my recent Project</p>
       </div>
       
-      <section className='  grid sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-between mx-5'  onMouseEnter={mousehover} onMouseLeave={mousehover}>
+      <section className='grid sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-between mx-5'  onMouseEnter={mousehover} onMouseLeave={mousehover}>
          {Projects.map((project) =>(
         <div className='  shadow-lg  shadow-[#040c16] containerbtn mb-5'>
         <img src={project.image} alt="Snow" className='w-full h-full'/>
@@ -64,20 +64,6 @@ const mousehover = () => {
     <button className='btn2 flex gap-2'>  <AiFillGithub />GitHub</button>
   </a>
     </div> )) }
-
-
-  
-    
-
-
-  
-
-        
-
-    
-
-
-
 
       </section>
 

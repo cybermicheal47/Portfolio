@@ -9,7 +9,7 @@ const Main = () => {
         
         <h1 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'> I am a Frontend Developer</h1>
 
-        <p className='pl-3    sm:text-[#8892b0] py-4 max-w-[700px]'>
+        <p className='pl-3 sm:text-[#8892b0] py-4 max-w-[700px]'>
         My expertise lies in the art of translating design concepts into responsive and 
         interactive web interfaces. 
         I understand the importance of pixel-perfect precision and 

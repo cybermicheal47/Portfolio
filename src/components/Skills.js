@@ -5,7 +5,7 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
+
 
 
 function Skills() {
