@@ -9,12 +9,12 @@ function Navbar() {
  const handleclick = () => setmobnav(!mobnav)
 
   return (
-    <div className='bg-[#0a192f] h-[80px] w-full fixed flex justify-between text-gray-50 items-center'>
+    <div className='bg-[#0a192f] h-[80px] w-full fixed flex justify-between text-gray-50 items-center navb'>
       <div>
         <img src={Logo} alt='Logo' style={{width: '50px'}} />
       </div>
-      <div>
-      <ul className='hidden md:flex '>
+      <div className='navb'>
+      <ul className='hidden md:flex navb'>
         <li>  <Link    to="main" spy={true} smooth={true} offset={50} duration={500}>
           Home
         </Link></li>

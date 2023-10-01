@@ -46,17 +46,18 @@ const mousehover = () => {
 
   return (
     <div className='w-full md:h-screen text-gray-50 bg-[#0a192f]' name='projects'>  
-    <div className='flex flex-col justify-center  w-full h-full items-center '>
+    <div className='flex flex-col justify-center  w-full h-full items-center'>
   
       <div>
-        <p className='text-4xl w-32  border-b-4  border-blue-600'>Projects</p>
+        <p className='text-4xl w-32 border-b-4 border-blue-600'>Projects</p>
         <p className='py-6 pl-5'> Some of my recent Project</p>
       </div>
       
-      <section className='grid sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-between mx-5'  onMouseEnter={mousehover} onMouseLeave={mousehover}>
+      <section className='grid sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-between mx-5'>
          {Projects.map((project) =>(
-        <div className='  shadow-lg  shadow-[#040c16] containerbtn mb-5'>
-        <img src={project.image} alt="Snow" className='w-full h-full'/>
+        <div className='shadow-lg  shadow-[#040c16] containerbtn mb-5 b' >
+        <img src={project.image}  alt="Projects" className='w-full h-full relative'/>
+     
         <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
     <button className='btn flex gap-2'> <AiOutlineSelect />Demo</button> </a>
   

@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowDown } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 const Main = () => {
   return (
   
@@ -17,8 +18,13 @@ const Main = () => {
         but also functions seamlessly.
         </p>
         <div>
-          <button className='text-[white]  flex items-center py-3 px-4 border-2 hover:bg-blue-600  hover:border-blue-600'>View Work <HiArrowNarrowDown className='ml-3' /></button>
-        </div>
+        <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
+        <button className='text-white flex items-center py-3 px-4 border-2 hover:bg-blue-600 hover:border-blue-600'>
+        View Projects <HiArrowNarrowDown className='ml-3' />
+      </button>
+      </Link>
+      
+      </div>
       </div>
 
 

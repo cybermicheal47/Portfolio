@@ -27,6 +27,11 @@
 opacity: 0.4;
 }
 
+.navb{  
+z-index: 90;
+  
+}
+
 
 .containerbtn {
   position: relative;
