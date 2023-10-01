@@ -31,14 +31,14 @@ const Projects = [
 {
   id: 4,
   image: cvv,
-  demoLink: 'https://store-f37e3.web.app/',
-  githubLink: 'https://github.com/cybermicheal47/shoppingcartReact',
+  demoLink: 'https://cvbuilder-5eb5f.web.app/',
+  githubLink: 'https://github.com/cybermicheal47/cvbuilderReact',
 },
 {
   id: 5,
   image: githubfinder,
-  demoLink: 'https://store-f37e3.web.app/',
-  githubLink: 'https://github.com/cybermicheal47/shoppingcartReact',
+  demoLink: 'https://githubfinder-react-34od.vercel.app/',
+  githubLink: 'https://github.com/cybermicheal47/Githubfinder-React',
 },
 
 ]
