@@ -2,8 +2,10 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] '>
+    <div name='contact' className='mt-32 w-full h-screen bg-[#0a192f] '>
+      
       <div className='flex justify-center items-center flex-col'>
+
         <div >
           <h2 className='border-b-2 inline border-blue-600 text-gray-50 text-4xl font-bold'>Contact</h2>
           <p className='text-gray-50 py-4'>
