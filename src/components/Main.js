@@ -14,7 +14,7 @@ const Main = () => {
         <p className="text-blue-800">
           {" "}
           My Name is{" "}
-          <span className="text-4xl sm:text-7xl font-bold text-[white]  pl-6">
+          <span className="text-4xl textsizesm sm:text-5xl font-bold text-[white]  pl-6 md:text-6xl lg:text-7xl">
             {" "}
             Oscar
           </span>{" "}
