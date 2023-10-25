@@ -2,48 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
-@layer base{
-  body{
+@layer base {
+  body {
     @apply font-[Raleway];
   }
   li {
     @apply px-4;
-  
   }
-  li:hover{
-    @apply cursor-pointer
+  li:hover {
+    @apply cursor-pointer;
   }
 }
-*{
-  background:#0a192f;
+* {
+  background: #0a192f;
 }
 
-.backgroundimg{
+.backgroundimg {
   background: no-repeat center center/cover;
   height: 250px;
-  width:250px;
+  width: 250px;
 }
-.backgroundimg:hover{
-opacity: 0.4;
-}
-
-.navb{  
-z-index: 90;
-  
+.backgroundimg:hover {
+  opacity: 0.4;
 }
 
+.navb {
+  z-index: 90;
+}
 
 .containerbtn {
   position: relative;
   display: flex;
-  flex:1;
-  
-
+  flex: 1;
 }
-
-
 
 .containerbtn .btn {
   position: absolute;
@@ -59,8 +52,8 @@ z-index: 90;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-   opacity:0;
-    transition:0s 190s;
+  opacity: 0;
+  transition: 0s 190s;
 }
 
 .containerbtn .btn2 {
@@ -77,19 +70,44 @@ z-index: 90;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-   opacity:0;
-    transition:0s 180s;
+  opacity: 0;
+  transition: 0s 180s;
 }
 
 .containerbtn:hover .btn,
 .containerbtn:hover .btn2 {
-    opacity: 1;
-    transition: 0s;
+  opacity: 1;
+  transition: 0s;
 }
 
 @media screen and (max-width: 600px) {
   .maxbelow {
     display: grid;
     grid-template-columns: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .textsizesm {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .textsizesm {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+  }
+}
+
+/* For screens between 639px and 911px */
+@media screen and (min-width: 640px) and (max-width: 911px) {
+  .textsizess {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5px;
   }
 }
