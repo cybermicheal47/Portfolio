@@ -1,7 +1,8 @@
 import React from "react";
 import { HiArrowNarrowDown } from "react-icons/hi";
 import { Link } from "react-scroll";
-import ReactTyped from "react-typed";
+import { ReactTyped } from "react-typed";
+
 const Main = () => {
   return (
     <div name="main" className="w-full h-screen bg-[#0a192f]">
