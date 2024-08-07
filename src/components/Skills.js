@@ -5,7 +5,8 @@ import ReactImg from "../assets/react.png";
 import FireBase from "../assets/firebase.png";
 import GitHub from "../assets/github.png";
 import Prisma from "../assets/prisma.png";
-import Tailwind from "../assets/Tailwind.png";
+// import Tailwind from "../assets/Tailwind.png";
+import Tailimg from "../assets/Tail.png";
 import Expressjs from "../assets/express.png";
 import Nodeimg from "../assets/node.png";
 import Reduximg from "../assets/Redux.png";
@@ -82,7 +83,7 @@ function Skills() {
           {/*  */}
 
           <div className="text-center shadow-2xl shadow-[#040c16] px-3 py-3 hover:scale-150 duration-500">
-            <img src={Tailwind} alt="GitHub" style={{ width: "100px" }} />
+            <img src={Tailimg} alt="GitHub" style={{ width: "100px" }} />
             <h2 className="mt-2 text-lg font-semibold">TailwindCss</h2>
           </div>
           {/*  */}
