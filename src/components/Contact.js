@@ -2,7 +2,10 @@ import React from "react";
 
 function Contact() {
   return (
-    <div name="contact" className="mt-36 w-full h-screen bg-[#0a192f] ">
+    <div
+      name="contact"
+      className=" w-full h-screen bg-[#0a192f]  secondcust:py-40"
+    >
       <div className="flex justify-center items-center flex-col">
         <div>
           <h2 className=" mx-10 border-b-2 inline border-blue-600 text-gray-50 text-4xl font-bold">

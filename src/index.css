@@ -35,6 +35,7 @@
 .containerbtn {
   position: relative;
   display: flex;
+  flex-direction: column;
   flex: 1;
 }
 
@@ -44,7 +45,7 @@
   left: 30%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: green;
+
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -52,8 +53,6 @@
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-  opacity: 0;
-  transition: 0s 190s;
 }
 
 .containerbtn .btn2 {
@@ -62,7 +61,7 @@
   left: 70%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #555;
+
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -70,8 +69,6 @@
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-  opacity: 0;
-  transition: 0s 180s;
 }
 
 .containerbtn:hover .btn,

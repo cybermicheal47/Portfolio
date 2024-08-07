@@ -20,7 +20,15 @@ const Main = () => {
           </span>{" "}
         </p>
         <h1 className="textsizesm text-4xl sm:text-5xl  ml-auto mr-auto  font-bold text-[#8892b0] md:text-6xl lg:text-7xl">
-          I am a Frontend Developer
+          I'm a{" "}
+          <ReactTyped
+            strings={["Fullstack Developer"]}
+            typeSpeed={100}
+            loop={false}
+            cursorChar=""
+            // backSpeed={20}
+            // showCursor={true}
+          />
         </h1>{" "}
         <p className="pl-5 pr-5  sm:text-[#dadde6] py-4 max-w-[700px]">
           My expertise lies in the art of translating design concepts into
